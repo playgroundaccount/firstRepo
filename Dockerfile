@@ -4,7 +4,7 @@ FROM python:3-slim
 EXPOSE 5000
 
 # Set environment variables
-ENV BANNER_COLOR="green"
+# ENV BANNER_COLOR="green"
 
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE=1
